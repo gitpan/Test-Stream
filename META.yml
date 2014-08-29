@@ -1,0 +1,63 @@
+---
+abstract: 'Comming soon'
+author:
+  - 'Chad Granum <exodist7@gmail.com>'
+build_requires: {}
+configure_requires:
+  Module::Build: '0.42'
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4208, CPAN::Meta::Converter version 2.140640'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Test-Stream
+provides:
+  Test::Stream:
+    file: lib/Test/Stream.pm
+    version: '0.000001'
+  Test::Stream::ArrayBase:
+    file: lib/Test/Stream.pm
+  Test::Stream::Context:
+    file: lib/Test/Stream.pm
+  Test::Stream::Event:
+    file: lib/Test/Stream.pm
+  Test::Stream::Event::Bail:
+    file: lib/Test/Stream.pm
+  Test::Stream::Event::Child:
+    file: lib/Test/Stream.pm
+  Test::Stream::Event::Diag:
+    file: lib/Test/Stream.pm
+  Test::Stream::Event::Finish:
+    file: lib/Test/Stream.pm
+  Test::Stream::Event::Note:
+    file: lib/Test/Stream.pm
+  Test::Stream::Event::Ok:
+    file: lib/Test/Stream.pm
+  Test::Stream::Event::Plan:
+    file: lib/Test/Stream.pm
+  Test::Stream::ExitMagic:
+    file: lib/Test/Stream.pm
+  Test::Stream::Exporter:
+    file: lib/Test/Stream.pm
+  Test::Stream::Fork:
+    file: lib/Test/Stream.pm
+  Test::Stream::Formatter::TAP:
+    file: lib/Test/Stream.pm
+  Test::Stream::HashBase:
+    file: lib/Test/Stream.pm
+  Test::Stream::IOSets:
+    file: lib/Test/Stream.pm
+  Test::Stream::Listener::Legacy:
+    file: lib/Test/Stream.pm
+  Test::Stream::Provider:
+    file: lib/Test/Stream.pm
+  Test::Stream::Threads:
+    file: lib/Test/Stream.pm
+  Test::Stream::Tools:
+    file: lib/Test/Stream.pm
+  Test::Stream::Util:
+    file: lib/Test/Stream.pm
+resources:
+  license: http://dev.perl.org/licenses/
+version: '0.000001'
