@@ -1,4 +1,5 @@
 Build.PL
+lib/Test/Provider.pm
 lib/Test/Stream.pm
 MANIFEST			This list of files
 META.json

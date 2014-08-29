@@ -21,9 +21,25 @@
       }
    },
    "provides" : {
+      "Test::Provider" : {
+         "file" : "lib/Test/Provider.pm",
+         "version" : "0.000002"
+      },
+      "Test::Provider::Context" : {
+         "file" : "lib/Test/Provider.pm"
+      },
+      "Test::Provider::Tools" : {
+         "file" : "lib/Test/Provider.pm"
+      },
+      "Test::Provider::Util" : {
+         "file" : "lib/Test/Provider.pm"
+      },
+      "Test::Provider::Utils" : {
+         "file" : "lib/Test/Provider.pm"
+      },
       "Test::Stream" : {
          "file" : "lib/Test/Stream.pm",
-         "version" : "0.000001"
+         "version" : "0.000002"
       },
       "Test::Stream::ArrayBase" : {
          "file" : "lib/Test/Stream.pm"
@@ -95,5 +111,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.000001"
+   "version" : "0.000002"
 }
