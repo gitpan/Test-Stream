@@ -6,13 +6,27 @@ build_requires: {}
 configure_requires:
   Module::Build: '0.42'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4208, CPAN::Meta::Converter version 2.140640'
+generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.142060'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: Test-Stream
 provides:
+  Test::CanFork:
+    file: lib/Test/CanFork.pm
+  Test::CanThread:
+    file: lib/Test/CanThread.pm
+  Test::More::DeepCheck:
+    file: lib/Test/More/DeepCheck.pm
+  Test::More::DeepCheck::Strict:
+    file: lib/Test/More/DeepCheck/Strict.pm
+  Test::More::DeepCheck::Tolerant:
+    file: lib/Test/More/DeepCheck/Tolerant.pm
+  Test::More::Tools:
+    file: lib/Test/More/Tools.pm
+  Test::MostlyLike:
+    file: lib/Test/MostlyLike.pm
   Test::Provider:
     file: lib/Test/Provider.pm
     version: '0.000002'
@@ -26,9 +40,17 @@ provides:
     file: lib/Test/Provider.pm
   Test::Stream:
     file: lib/Test/Stream.pm
-    version: '0.000002'
+    version: '0.000003'
+  Test::Stream::API:
+    file: lib/Test/Stream/API.pm
   Test::Stream::ArrayBase:
     file: lib/Test/Stream.pm
+  Test::Stream::ArrayBase::Meta:
+    file: lib/Test/Stream/ArrayBase/Meta.pm
+  Test::Stream::Block:
+    file: lib/Test/Stream/Block.pm
+  Test::Stream::Carp:
+    file: lib/Test/Stream/Carp.pm
   Test::Stream::Context:
     file: lib/Test/Stream.pm
   Test::Stream::Event:
@@ -47,10 +69,18 @@ provides:
     file: lib/Test/Stream.pm
   Test::Stream::Event::Plan:
     file: lib/Test/Stream.pm
+  Test::Stream::Event::Subtest:
+    file: lib/Test/Stream/Event/Subtest.pm
   Test::Stream::ExitMagic:
     file: lib/Test/Stream.pm
+  Test::Stream::ExitMagic::Context:
+    file: lib/Test/Stream/ExitMagic/Context.pm
   Test::Stream::Exporter:
     file: lib/Test/Stream.pm
+  Test::Stream::Exporter::Meta:
+    file: lib/Test/Stream/Exporter/Meta.pm
+  Test::Stream::ForceExit:
+    file: lib/Test/Stream/ForceExit.pm
   Test::Stream::Fork:
     file: lib/Test/Stream.pm
   Test::Stream::Formatter::TAP:
@@ -61,14 +91,34 @@ provides:
     file: lib/Test/Stream.pm
   Test::Stream::Listener::Legacy:
     file: lib/Test/Stream.pm
+  Test::Stream::Meta:
+    file: lib/Test/Stream/Meta.pm
+  Test::Stream::PackageUtil:
+    file: lib/Test/Stream/PackageUtil.pm
   Test::Stream::Provider:
     file: lib/Test/Stream.pm
+  Test::Stream::Subtest:
+    file: lib/Test/Stream/Subtest.pm
+  Test::Stream::Tester:
+    file: lib/Test/Stream/Tester.pm
+  Test::Stream::Tester::Checks:
+    file: lib/Test/Stream/Tester/Checks.pm
+  Test::Stream::Tester::Checks::Event:
+    file: lib/Test/Stream/Tester/Checks/Event.pm
+  Test::Stream::Tester::Events:
+    file: lib/Test/Stream/Tester/Events.pm
+  Test::Stream::Tester::Events::Event:
+    file: lib/Test/Stream/Tester/Events/Event.pm
+  Test::Stream::Tester::Grab:
+    file: lib/Test/Stream/Tester/Grab.pm
   Test::Stream::Threads:
     file: lib/Test/Stream.pm
   Test::Stream::Tools:
     file: lib/Test/Stream.pm
+  Test::Stream::Toolset:
+    file: lib/Test/Stream/Toolset.pm
   Test::Stream::Util:
     file: lib/Test/Stream.pm
 resources:
   license: http://dev.perl.org/licenses/
-version: '0.000002'
+version: '0.000003'
